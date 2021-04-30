@@ -7,15 +7,15 @@
 - Maximális pontszám: 100 pont, 51 pont kell az elégséges eredményhez. 
 
 # Javascript algoritmikus és DOM feladatok:
-- Lépj be a JS-task mappába
-- Ha még nem tetted meg, telepítsd a node package manager-rel a szükséges függőségeket!
+-- done Lépj be a JS-task mappába
+--done Ha még nem tetted meg, telepítsd a node package manager-rel a szükséges függőségeket!
 
 JEST Tesztkörnyezet futtatása: 
-- npm run test
+--done npm run test
 
 # 1. FELADAT 
-- Algoritmusok (15 pont összesen)
-- Ha még nem tetted meg telepítsd a teszteléshez szükséges függőségeket! 
+--done Algoritmusok (15 pont összesen)
+--done Ha még nem tetted meg telepítsd a teszteléshez szükséges függőségeket! 
 (JS-task mappa)
 - A __test__ mappákban találod a teszteket. Értelmezd őket! 
 
@@ -25,39 +25,40 @@ JEST Tesztkörnyezet futtatása:
 - Az index.html csak a vizuális ellenőrzés lehetőségét adja, 
 teszt szempontjából lényegtelen tartalma
 
-Adott egy objektumlista ("movieList"), amelyben 7 film adatai találhatók. Le szeretnénk szűrni ezeket a filmeket két szempont szerint:
- - a megjelenés éve (adott évben megjelent)
- - időtartam szerint (maximális időtartam percben, kevesebb is lehet)
+------Adott egy objektumlista ("movieList"), amelyben 7 film adatai találhatók. Le szeretnénk szűrni ezeket a filmeket két szempont szerint:
+ - done a megjelenés éve (adott évben megjelent)
+ - done időtartam szerint (maximális időtartam percben, kevesebb is lehet)
 
-Adott egy  "movieFilter()" metódus. Benne kell a logikát megírnod:
-- A metódus három paramétert kap: az eredeti listát, a megjelenés évét, maximális időtartamot. 
-- A metódus a szűrést követően adja vissza a leszűrt listában csak a film címeket!
-- A tökéletes megoldáshoz törekedj a "Clean Code" és a funkcionális programozás elveire!
+------Adott egy  "movieFilter()" metódus. Benne kell a logikát megírnod:
+- done A metódus három paramétert kap: az eredeti listát, a megjelenés évét, maximális időtartamot. 
+- done A metódus a szűrést követően adja vissza a leszűrt listában csak a film címeket!
+- done A tökéletes megoldáshoz törekedj a "Clean Code" és a funkcionális programozás elveire!
 
 # 2. FELADAT
 DOM manipuláció (20 pont összesen)
 
 - forrás file: => task02-dom/dom.js, index.html
 
-Az index.html megnyitása, használata csak a vizuális ellenőrzés lehetőségét adja, 
+done Az index.html megnyitása, használata csak a vizuális ellenőrzés lehetőségét adja, 
 teszt szempontjából lényegtelen tartalma
 
-Adott az index.html-ben egy 'nav' elem. Megjelölve egy id=link-list' attributummal.
-Adott egy "changeOuterLinks" függvény a dom.js fille-ban. 
+ Adott az index.html-ben egy 'nav' elem. Megjelölve egy id=link-list' attributummal.
+ Adott egy "changeOuterLinks" függvény a dom.js fille-ban. 
 
 1. Feladat: a megadott függvény logikájának megírása.
  A 'nav' elemen belüli linkek belső innerHtml tartalmát vizsgálja meg:
 
-- Ha a link belső szövege tartalmazza az 'outer-link' szövegrészt,  akkor a linkre történő kattintásnál új ablakban kell 
+- done Ha a link belső szövege tartalmazza az 'outer-link' szövegrészt,  akkor a linkre történő kattintásnál új ablakban kell 
   megjelennie a tartalomnak (target attributum használata)
-- Ezek a linkek innerHTML tartalma legyen kiemelve ('strong' elem segítségével)
-- Többi link tulajdonságai ne változzanak meg.
+-  done Ezek a linkek innerHTML tartalma legyen kiemelve ('strong' elem segítségével)
+- done Többi link tulajdonságai ne változzanak meg.
 
-2. Feladat: Manipuláld a 'nav' elemének stílus jegyeit a changeOuterLinks függvényben:
-- Legyen megjelenése: 'flex'
-- Benne lévő linkek oszlopba rendezödjenek
-- 'nav' szélessége 30% legyen
-- margin property segitségével középen (alul-felül 0 az érték, oldalt:  'auto')
+2. Feladat: 
+-  done Manipuláld a 'nav' elemének stílus jegyeit a changeOuterLinks függvényben:
+-  done Legyen megjelenése: 'flex'
+- done Benne lévő linkek oszlopba rendezödjenek
+-  done'nav' szélessége 30% legyen
+-  done margin property segitségével középen (alul-felül 0 az érték, oldalt:  'auto')
 - Legyen egy 'solid' kék ('blue') színű kerete. Vastagsága 1px;
 - Húzd be a belső tartalmat minden oldaról a padding segítségével. Értéke legyen 16px
 
@@ -85,26 +86,26 @@ Feladathoz egy segéd kép:
 
 https://docs.google.com/document/d/1Rij8PUAd2KESb5vS6avjs3LDKo-3QX8qkWvZCn7aZW0/edit
 
-1. Készíts Bootsrap segítségével egy űrlapot, amivel filmeket  lehet regisztrálni.
-2. Készíts egy "md" méretü container-t (bootsrap osztály) a html "section" eleméből.
+1. Készíts Bootsrap segítségével egy űrlapot, amivel filmeket  lehet regisztrálni. -done
+2. Készíts egy "md" méretü container-t (bootsrap osztály) a html "section" eleméből.-done
 Adj háttérszínt a konténernek: rgb(53, 53, 50). Kerekítsd le kicsit az éleit: 
-border-radius: 12px
+border-radius: 12px-done
 3. Helyezz el benne egy boostrap formot a következő beviteli mezőkkel:
 
 -  LABEL és INPUT mező (bootsrap osztály használat LABEL-re és INPUT-ra) 
 input mező típusa: "text" , id="title". A label for attribútuma mutasson az input mező id-ra. 
-Label mező belső szöveges tartalma: "Movie Title:"
+Label mező belső szöveges tartalma: "Movie Title:"-done
 
 - LABEL és INPUT mező (bootsrap osztály használat LABEL-re és INPUT-ra) 
 input mező típusa: "text", id="year". A label for attribútuma mutasson az id-ra.
-Label mező belső szöveges tartalma: "Release year:"
+Label mező belső szöveges tartalma: "Release year:"-done
 
 - LABEL és SELECT mező (bootsrap osztály használat LABEL-re és SELECT-re). 
 select mező id="category". A label for attribútuma mutasson az id-ra.
 Label mező belső szöveges tartalma: "Category:"  
 (alapértelmezetten megjelenő szöveg: 'Choose Category')
 Választható opciók és értékek a select mező esetében: 
-"Drama", "Action", "Fantasy" (érték megegyzik a megjelenéssel)
+"Drama", "Action", "Fantasy" (érték megegyzik a megjelenéssel)-done
 
 - Valamennyi LABEL mező szövege kapjon bootstrap 'warning' színkódot. 
 Az 2. és 3. input mező egymás mellett jelenjen meg.
@@ -225,3 +226,5 @@ A kártya adatainak, és képének meg kell változnia a kiválasztott elemnek m
 5. Az elkészült komponenseknek meg kell jelenniük a külső url hivatkozáson.
 
 
+#   s t r - f r o n t e n d - k e p e s i t o - v i z s g a  
+ 
