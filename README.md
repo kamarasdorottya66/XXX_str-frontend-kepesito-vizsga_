@@ -228,4 +228,5 @@ A kártya adatainak, és képének meg kell változnia a kiválasztott elemnek m
 
 #   s t r - f r o n t e n d - k e p e s i t o - v i z s g a  
  #   s t r - f r o n t e n d - k e p e s i t o - v i z s g a  
+ #   s t r - f r o n t e n d - k e p e s i t o - v i z s g a  
  
